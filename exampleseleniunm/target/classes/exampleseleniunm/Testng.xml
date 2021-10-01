@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "testexample" parallel="methods" thread-count = "2"> 
+<test name ="testcase">
+<parameter name = "name" value ="boss"></parameter>
+<classes>
+ <class name = "testngtraning.parallelexample"></class>
+
+<!-- <class name = "testngtraning.parameterizationexample"></class>
+ -->
+</classes>
+
+
+
+
+<!-- <groups>
+<run>
+	<include name="bmw"></include>
+	
+</run>
+
+</groups>
+ -->
+
+
+
+<!-- <packages>
+
+<package name = "testngtraning"></package>
+
+</packages>
+ -->
+
+<!-- <classes>
+
+
+
+<class name ="exampleseleniunm.Alertboxexample"></class>
+<class name ="testngtraning.dependanciesmethod"></class>
+
+
+
+</classes>
+
+ -->
+
+</test>
+
+
+
+</suite>
